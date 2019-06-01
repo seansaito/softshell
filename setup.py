@@ -6,6 +6,10 @@ setup(name='softshell',
       url='http://github.com/seansaito/softshell',
       author='Sean Saito',
       author_email='saitosean@ymail.com',
+      classifiers=[
+        'Development Status :: 3 - Alpha',
+        'Programming Language :: Python :: 3.6'
+      ],
       license='MIT',
       packages=['softshell'],
       install_requires=[
