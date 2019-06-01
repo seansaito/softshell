@@ -1,13 +1,13 @@
 from setuptools import setup
 
-def readme():
-    with open('README.rst') as f:
-        return f.read()
+with open("README.md", "r") as fh:
+    long_description = fh.read()
 
 setup(name='softshell',
       version='0.1',
       description="Turn hard-coded variables into dynamic ones without refactoring.",
-      long_description=readme(),
+      long_description=long_description,
+      long_description_content_type="text/markdown",
       url='http://github.com/seansaito/softshell',
       author='Sean Saito',
       author_email='saitosean@ymail.com',
