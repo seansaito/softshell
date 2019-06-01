@@ -6,7 +6,8 @@ def readme():
 
 setup(name='softshell',
       version='0.1',
-      description=readme(),
+      description="Turn hard-coded variables into dynamic ones without refactoring.",
+      long_description=readme(),
       url='http://github.com/seansaito/softshell',
       author='Sean Saito',
       author_email='saitosean@ymail.com',
