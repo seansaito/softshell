@@ -1,8 +1,12 @@
 from setuptools import setup
 
+def readme():
+    with open('README.rst') as f:
+        return f.read()
+
 setup(name='softshell',
       version='0.1',
-      description='Change hard-coded variables into dynamic ones without refactoring',
+      description=readme(),
       url='http://github.com/seansaito/softshell',
       author='Sean Saito',
       author_email='saitosean@ymail.com',
