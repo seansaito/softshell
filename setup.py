@@ -13,9 +13,9 @@ setup(name='softshell',
       author_email='saitosean@ymail.com',
       classifiers=[
         'Development Status :: 3 - Alpha',
+        'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3.6'
       ],
-      license='MIT',
       packages=['softshell'],
       install_requires=[
           "PyYAML>=5.1"
