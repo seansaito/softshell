@@ -1,0 +1,15 @@
+---
+path: examples/example_1.py
+configurations:
+  - line_number: 1
+    variable: LEARNING_RATE
+    value: [0.1, 0.2, 0.3]
+  - line_number: 2
+    variable: DECAY
+    value: [0.1, 0.2]
+---
+path: examples/example_2.py
+configurations:
+  - line_number: 1
+    variable: FACTOR
+    value: 2
